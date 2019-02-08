@@ -13,6 +13,8 @@ import org.testng.annotations.Test;
 
 import java.security.Key;
 import java.util.concurrent.TimeUnit;
+//login tests are maintained here.
+//without Page object approach
 
 public class LoginTests {
 
