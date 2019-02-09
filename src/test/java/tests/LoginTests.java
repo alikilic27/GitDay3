@@ -12,6 +12,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.security.Key;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 //login tests are maintained here.
 //without Page object approach
@@ -19,6 +21,7 @@ import java.util.concurrent.TimeUnit;
 public class LoginTests {
 
     WebDriver driver ;
+    Map<String, String> myMap = new HashMap<String, String>();
 
     @BeforeClass
     public void setUp(){
